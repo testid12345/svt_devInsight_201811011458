@@ -1,0 +1,120 @@
+{
+  "id": "0ba06844-a290-4a45-ad5a-20122b3aa762",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "19c4efc8-7c5d-4210-bdb6-78e10dc4f0f1",
+    "name": "googlenews",
+    "commands": [{
+      "id": "7b86051b-1d23-4de1-8153-e80bd3e1c330",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05931468-3f3c-485b-a0fa-2eda2f995399",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input[name=\"q\"]", "css"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f6ea43-0a9d-4b2c-a189-093fedb3dac1",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input[name=\"q\"]", "css"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "news"
+    }, {
+      "id": "ff3fe8c1-866b-47dd-be96-c1ecbea511ee",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=input[name=\"q\"]", "css"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7c5dc4f1-3c40-4d05-a8c6-a2abe111032d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3.LC20lb",
+      "targets": [
+        ["css=h3.LC20lb", "css"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"]
+      ],
+      "value": "Google News"
+    }, {
+      "id": "cf3b29d9-8990-47d4-9569-00ca777be19f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3.LC20lb",
+      "targets": [
+        ["css=h3.LC20lb", "css"],
+        ["xpath=//div[@id='rso']/div[2]/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ffe58dc-af74-458a-8a6a-1679c485ad68",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[11]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d24c0ad7-ee73-423b-8182-fd9e568573bd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[10]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[10]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[10]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bdaee5d-5e1e-4df6-8001-ae7e8a807894",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.ICsaqd",
+      "targets": [
+        ["css=span.ICsaqd", "css"],
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dbbfdf6d-c9e8-43f3-ba96-1fa84ea803fb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["19c4efc8-7c5d-4210-bdb6-78e10dc4f0f1"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
