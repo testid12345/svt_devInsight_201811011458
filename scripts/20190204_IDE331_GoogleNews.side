@@ -1,0 +1,206 @@
+{
+  "id": "ce72d23f-5d79-4a84-99ae-c9041dfc2e90",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "https://news.google.com",
+  "tests": [{
+    "id": "669af39d-374f-44bc-b3c7-77f347566ead",
+    "name": "US_News",
+    "commands": [{
+      "id": "d16079b6-d2d3-4110-9ebe-c7f5ce804ada",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67260012-0aca-491f-9bb2-3037c67a1e51",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[6]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[6]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31c54295-e3f6-461e-bff0-c442509c2c37",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2.OJMBqe",
+      "targets": [
+        ["css=h2.OJMBqe", "css"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div/div/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"]
+      ],
+      "value": "U.S."
+    }, {
+      "id": "921e4eab-c126-40c5-952f-a99844d4a0a1",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e6b8d58d-3f79-4d0c-b2be-715187a8bcc3",
+    "name": "World_News",
+    "commands": [{
+      "id": "75007799-5e71-414e-b766-a23c35cf8510",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d42bcf6-1907-481f-bff4-76abe7fd650b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[7]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[7]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[7]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ec0629-a6c9-46fc-baa3-a969f65d3b45",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2.OJMBqe",
+      "targets": [
+        ["css=h2.OJMBqe", "css"],
+        ["xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div/div/div/div[2]/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/h2", "xpath:position"]
+      ],
+      "value": "World"
+    }, {
+      "id": "0c78e1d9-e912-43b9-a049-d41db61ef736",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Google News - World - World United States",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da3627ba-9b53-430e-8cd3-c4f108c5ffa3",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.ICsaqd",
+      "targets": [
+        ["css=span.ICsaqd", "css"],
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41011aef-7a0c-4036-ad13-13621ac73c72",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=span.ICsaqd",
+      "targets": [
+        ["css=span.ICsaqd", "css"],
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4a2d3a7-e06f-459c-9040-b343aad8d754",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=span.ICsaqd",
+      "targets": [
+        ["css=span.ICsaqd", "css"],
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a58b84b0-03c6-42ac-a2a2-9bc0843eddc0",
+    "name": "Entertainment",
+    "commands": [{
+      "id": "54c9717e-f877-4726-b38b-258487625e69",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fcfeb37-1c9d-4b20-8387-316350218a61",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[12]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[12]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[12]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3c3dac-b4b8-4b56-ac05-4d975f9fc5cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[12]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[12]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[12]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594a4bc8-fb14-4b18-b2e2-f1341010f3d5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[11]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": "Entertainment"
+    }, {
+      "id": "42469cfe-f036-4da3-aa04-c1d541eee051",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span",
+      "targets": [
+        ["xpath=//header[@id='gb']/div[4]/div[2]/div/c-wiz/div/div[11]/a/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[11]/a/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b5b463f-7349-4969-9a8f-0040cda27f1b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Google News - Entertainment - Latest",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8bf838f3-0e2d-414d-a26b-dbe920b5bdba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div[2]/div/div[2]/div[2]/content/div/span",
+      "targets": [
+        ["xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div[2]/div/div[2]/div[2]/content/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/content/div/span", "xpath:position"]
+      ],
+      "value": "Movies"
+    }, {
+      "id": "d166a449-9628-4e2a-adbe-0521d3fca910",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div[2]/div/div[2]/div[2]/content/div/span",
+      "targets": [
+        ["xpath=//div[@id='yDmH0d']/c-wiz[2]/div/c-wiz/div/div[2]/div/div[2]/div[2]/content/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/content/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cf5c74b7-6cbf-4d44-bddf-cda684fd3803",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a58b84b0-03c6-42ac-a2a2-9bc0843eddc0", "e6b8d58d-3f79-4d0c-b2be-715187a8bcc3"]
+  }],
+  "urls": ["https://www.google.com/", "https://news.google.com/"],
+  "plugins": []
+}
