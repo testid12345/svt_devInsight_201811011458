@@ -1,0 +1,189 @@
+{
+  "id": "5bb78e55-8fd6-4428-9b9f-37a5e548a565",
+  "version": "1.1",
+  "name": "Wiki_Earth_Moon",
+  "url": "https://www.wikipedia.org",
+  "tests": [{
+    "id": "30ef6b34-2352-4ece-9cee-d66636da5e34",
+    "name": "Moon",
+    "commands": [{
+      "id": "c8e3d648-04e1-4b41-8e58-3dfada8f23ee",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d86cd8aa-838f-408e-9553-d0f37589ddbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f989c86-9ac4-4e8f-bd7b-2cacc9bf9708",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "moon"
+    }, {
+      "id": "eea4de68-c901-4add-9b71-34a5d4f0e634",
+      "comment": "",
+      "command": "submit",
+      "target": "id=search-form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e076841-4a1f-4826-ba07-74f1af8f8421",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstHeading",
+      "targets": [
+        ["id=firstHeading", "id"],
+        ["css=#firstHeading", "css"],
+        ["xpath=//h1[@id='firstHeading']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a5641bc-27c4-46f7-a5af-f23754bbb410",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "targets": [
+        ["id=firstHeading", "id"],
+        ["css=#firstHeading", "css"],
+        ["xpath=//h1[@id='firstHeading']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Natural satellite"
+    }, {
+      "id": "2daec3f1-643e-474e-b4a4-a039f6674f20",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.mw-parser-output",
+      "targets": [
+        ["css=div.mw-parser-output", "css"],
+        ["xpath=//div[@id='mw-content-text']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2522c62-75c8-4dc7-873a-2fde670c44c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.toctext",
+      "targets": [
+        ["css=span.toctext", "css"],
+        ["xpath=//div[@id='toc']/ul/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85704eb3-5fd8-42e7-9600-77875dd2a1af",
+    "name": "Earth",
+    "commands": [{
+      "id": "0073a525-d39d-4137-8cda-405ac87849a4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "664459c1-16c3-42e0-ba1f-7034b8d3d6e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b42b7fd9-2442-44d0-9ff4-3a672a2c4736",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='search-input']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Earth"
+    }, {
+      "id": "1883e37e-666a-403c-9b35-826bed748f61",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.pure-button.pure-button-primary-progressive",
+      "targets": [
+        ["css=button.pure-button.pure-button-primary-progressive", "css"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6851c402-7b25-446e-968f-20f1ae8f6d63",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=firstHeading",
+      "targets": [
+        ["id=firstHeading", "id"],
+        ["css=#firstHeading", "css"],
+        ["xpath=//h1[@id='firstHeading']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "Earth"
+    }, {
+      "id": "37240bf1-cba9-490b-be39-15251191fd88",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=World",
+      "targets": [
+        ["linkText=World", "linkText"],
+        ["css=div.hatnote.navigation-not-searchable > a", "css"],
+        ["xpath=//a[contains(text(),'World')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/wiki/World')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ec44d18-ca8c-4e97-85e5-60af776e5a9f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["30ef6b34-2352-4ece-9cee-d66636da5e34"]
+  }],
+  "urls": ["https://www.wikipedia.org/"],
+  "plugins": []
+}
